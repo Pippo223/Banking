@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    width:auto;
+}
+
+.topmost{
+    text-align: right;
+    background-color: orange;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+header {
+   display:flex;
+   padding: 2em;
+   background-color:transparent #fff;
+}
+
+header:hover {
+    background-color:#fff;
+ }
+
+.img-header {
+    width:20%;
+    display:flex;
+}
+
+img[alt=Bank-Logo] {
+    width: 10%;
+}
+
+div.bank-name {
+    margin-left: 0.8em;
+    margin-top: 0.2em;
+    color:gold;
+   font-size: 1.2em;
+}
+
+#toplinks{
+    margin-left: 5em;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+a.toplinks {
+    padding-left: 2em;
+    text-decoration: none;
+}
+
+.top-search {
+    margin-left: 10em;
+}
+
+.front-page {
+    width:100%;
+}
+
+#invest-div {
+    width:80%;
+    margin:auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3em;
+    
+}
+
+.invest-div {
+    border: 1px solid darkgreen;
+    text-align: justify;
+}
+
+.invest-div>h2 {
+    text-align: center;
+}
+
+#current-rate {
+    width:100%;
+    margin:auto;
+    margin-top: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color:#f4f4f4;
+    position: relative;
+}
+
+.current-rate {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.current-head{
+    padding:1em;
+    background-color: #cdcdcd;
+    font-size: 1.5em;
+    width:96%;
+    margin: auto;
+}
+
+div.fx {
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    background-color: orange;
+    padding:1em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+table,tr { 
+    margin:auto;
+    width:82.5%;
+    margin-top: 1em;
+    /* padding: 0.8em; */
+    font-size: 1.2em;
+    text-align: center;
+}
+
+td {
+    font-size: 1em;
+    padding-top: 0.8em;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+#app-div {
+    width: 80%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.app-div {
+    padding: 5em 0;
+}
+
+.app-div #app-div1{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.app-div #app-div2{
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.app-div #app-div3{
+    margin-top: 2em;
+    font-size: 1.2em;
+    color: rgb(70, 70, 70);
+}
+
+#pre-footer {
+    width:100%;
+    background-color: orange;
+}
+
+#subscribe {
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscribe {
+    padding: 4em;
+}
+
+.subscribe h2 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    color:rgb(0, 0, 100);
+}
+
+.subscribe p {
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+input[placeholder=Name], input[placeholder=Email]{
+    width: 30em;
+    padding:0.8em;
+    margin-bottom: 0.8em;
+}
+
+input[value=Subscribe] {
+    width: 24.2em;
+    padding:0.8em;
+    color:oldlace;
+    border: 0;
+    font-weight: 600;
+    font-size: 1.1em;
+    background-color: orangered;
+}
+
+input[value=Subscribe]:hover {
+    cursor: pointer;
+}
+
+#footer1 {
+    background-color: rgba(50,50,50);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.footer1 {
+    display:flex;
+}
+
+.footer2 {
+    padding-top: 3em;
+    font-size: 1.1em;
+    color: #cdcdcd;
+}
+
+.footer2 p:nth-child(2) {
+    color:orange;
+}
+
+.footer2 p:nth-child(3) {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.fa.fa-twitter-square, .fa.fa-instagram, .fa.fa-youtube-square
+{
+    padding-left: 1em;
+    color: white;
+}
+
+.fa.fa-facebook-square {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 2em 0;
+    padding-left: 8em;
+    
+}
+
+li {
+    padding-bottom: 0.5em;
+    color:#cdcdcd;
+}
+
+li:first-child {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    padding-top: 1.2em;
+    color: white;
+}
+
+#footer2 {
+    padding: 5em 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Contact form*/
+.myclass {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+  }
+
+  #form1{
+    background-color:#f4f4f4;
+  }
+
+  h1#contact {
+      text-align: center;
+    color:orange;
+  }
+
+  input[name=name], textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    
+    outline: none;
+    }
+
+    input[name=name]:focus, textarea:focus {
+        border: 1px solid orange;
+    }
+
+    input[name=name]::placeholder {
+    color: #666;
+    }
+
+    button[type=submit] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: orange; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+
+    button:hover {
+    background: orangered;
+    }    
+
+    /*Products & Services*/
+    #mid {
+        width:60%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height:800px; 
+        margin-bottom: 5em;
+        margin-top: 5em;
+        gap:2em;
+    }
+
+    .mid {
+        background-color: #f4f4f4;
+        padding-top: 2em;
+        padding-left: 1em;
+    }
+
+    /* img[alt=Background-Image] {
+        width:100%;
+    
+        /* height: 100%; 
+    } */
+
+    .bg-front {
+        background-image: url('../images/1.png');
+        background-color:black;
+        background-position: center center;
+        background-size: cover;
+         /* padding-top: 200px;*/
+         padding-bottom: 30%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
