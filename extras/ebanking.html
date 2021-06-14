@@ -34,6 +34,34 @@
             <input type=submit id = submit>
         </div>
     </header>
+
+    <div id = user-int>
+
+        <div class=myclass>
+            <div id="form1">
+                <h1 id=contact>Account Deposit Form</h1>
+                <div id=error></div>
+            <div class="info">
+                <input class="fname" id = user type="text" name="name" placeholder="Username: user">
+                <input type="password" id = pass name="name" placeholder="Password: 111">
+                <button id = submit1 type="submit" href="">Submit</button>
+            </div>
+        </div>
+          </div>
+        
+
+        <div class=myclass id=display-balance>
+            <div id="form1">
+            <p id=curr-bal>User Current Balance: $ <span id = bal>20</span> </p>
+            <div id=error2></div>
+            <input type="number" name = name id=dep placeholder="Enter Deposit Amount($)">
+            <button id = deposit-btn type="submit">Deposit</button>
+            </div>
+            
+        </div>
+
+    </div>
+
     
     <div id = app-div>
         <div class = app-div>
@@ -44,12 +72,35 @@
             
             <p id=app-div3> Download the Charisma Bank App</p>
             
-            <p> App Store</p>
-            <p> Google Play</p>
+            <p> <img src="../images/playApp.png" alt="play-app-store"></p>
             </div>
         <div class = app-div></div>
-        <div class = app-div></div>
+        <div class = app-div> <img src="../images/app-screen.png" alt="mobile-app"></div>
     </div>
+
+   
+      <!-- The Modal -->
+<div id="confirm-dep" class="confirm">
+
+    <!-- Modal content -->
+    <div class="confirm-content">
+      <div class="confirm-header">
+        <span class="close2">&times;</span>
+        <h2>Confirm Deposit of $<span id=dep-confirm></span></h2>
+      </div>
+      <div class="confirm-body">
+        <p id = sure></p>
+        <div class = "confirm-body2">
+            
+            <button id = "yes">Yes</button>
+            <button id = "no">No</button>
+         </div> 
+      </div>
+    </div>
+  
+  </div>
+
+    <br><br><br><br><br>
 
 
     <footer>
@@ -110,5 +161,9 @@
             <i class=fa>	&#xf25d;</i> Inspired by CalBank | All Rights Reserved.
         </div>
     </footer>
+
+    <script src="../script/script.js">
+
+    </script>
 </body>
 </html>
