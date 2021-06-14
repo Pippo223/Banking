@@ -132,7 +132,7 @@ th {
     width: 80%;
     margin: auto;
     display:grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 3fr 0.5fr 1fr;
 }
 
 .app-div {
@@ -202,6 +202,11 @@ input[value=Subscribe]:hover {
     cursor: pointer;
 }
 
+img[alt=img1] {
+    width:70%;
+    float: right;
+}
+
 #footer1 {
     background-color: rgba(50,50,50);
     display: grid;
@@ -264,6 +269,14 @@ li:first-child {
 }
 
 /*Contact form*/
+
+.front1 {
+    margin: auto;
+    width:60%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 .myclass {
     display: flex;
     justify-content: center;
